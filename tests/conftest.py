@@ -4,7 +4,6 @@ import factory
 from fastapi.testclient import TestClient
 
 from sqlalchemy.orm import sessionmaker
-from sqlalchemy.pool import StaticPool
 from sqlalchemy import create_engine
 
 from fast_zero.security import get_password_hash
